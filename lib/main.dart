@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,57 +12,13 @@ class Flutter_basics_re_exam extends StatefulWidget {
 }
 
 class _Flutter_basics_re_examState extends State<Flutter_basics_re_exam> {
-  int nummer1 = 1;
-  int nummer2 = 2;
-
-  void changeMeme() {
-    setState(() {
-      nummer1 = Random().nextInt(8) + 1;
-      nummer2 = Random().nextInt(8) + 1;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue,
-          title: Text('Meme Generator'),
-          centerTitle: true,
-          elevation: 0,
-        ),
-        body: SafeArea(
-          child: Center(
-            child: Column(
-              children: [
-                Expanded(
-                  flex: 2,
-                  child: Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Image.asset('images/meme$nummer1.jpg'),
-                  ),
-                ),
-                Expanded(
-                  flex: 2,
-                  child: Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Image.asset('images/meme$nummer2.jpg'),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-        bottomNavigationBar: ElevatedButton(
-          style: ButtonStyle(
-            backgroundColor:
-                MaterialStateColor.resolveWith((states) => Colors.blue),
-          ),
-          child: Text('Next Memes'),
-          onPressed: changeMeme,
-        ),
-      ),
-    );
+    //TODO: Bouw eerst je pagina op zoals in het voorbeeld (zie README of LessonUp)
+    //TODO: Kijk goed naar de beoordelingscriteria
+    //TODO: Maak eerst wat je al weet
+    //TODO: Maak de moeilijke dingen als laatste
+    //TODO: Dit is een meme generator, don't forget to have fun!
+    return Container();
   }
 }
