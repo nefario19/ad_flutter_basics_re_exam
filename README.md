@@ -22,7 +22,7 @@ Onderaan vind je een foto van de wireframe. Deze dient nagemaakt te worden. Het 
 
 ## Bonus
 
-Bij iedere feit moet de achtergrondkleur van de appbar, body en knop veranderen (alledrie de elementen dezelfde kleur).
+Bij iedere meme moet de achtergrondkleur van de appbar, body en knop veranderen (alledrie de elementen dezelfde kleur).
 
 ## Regels
 
